@@ -1,0 +1,24 @@
+{
+  "name": "chichvirus",
+  "version": "1.0.0",
+  "description": "A Flutter game",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "flutter build web --base-href \"/chichvirus/\" --web-renderer canvaskit --target=\"lib/main_dev.dart\"",
+    "build:prod": "flutter build web --base-href \"/chichvirus/\" --web-renderer canvaskit --target=\"lib/main_prod.dart\" --release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mibi2007/chichvirus-flutter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mibi2007/chichvirus-flutter/issues"
+  },
+  "homepage": "https://github.com/mibi2007/chichvirus-flutter#readme"
+}
